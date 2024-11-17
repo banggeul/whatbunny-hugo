@@ -77,26 +77,9 @@
       opacity: 0.1;
     }
   }
-  .app-header .status .arrow {
-    display: none;
-    animation: breathe-arrow 1.5s ease-in-out alternate infinite;
-  }
-  @keyframes breathe-arrow {
-    0% {
-      opacity: 0;
-    }
-    100% {
-      opacity: 0;
-    }
-  }
-  .app-header .contact {
-    display: none;
-  }
+  
   .app-header .navigation {
     display: flex;
-  }
-  body.mobile-nav--is--transitioning {
-    overflow: hidden;
   }
 
   .app-nav {
@@ -118,14 +101,6 @@
     grid-column: 2 / -2 ;
     /* color: blue; */
   }
-  .look {
-    margin-top: -24px;
-    margin-left: -7px;
-  }
-  .app-aside {
-    left: var(--grid--app-margin);
-    bottom: var(--grid--app-margin);
-  }
 
   footer {
     position: static;
@@ -143,9 +118,7 @@
   body {
     --grid--app-columns: var(--grid--app-columns-3);
   }
-  .app-grid-overlay .column:nth-child(n+4) {
-    display: none;
-  }
+ 
   .section.projects > .content {
     padding: calc(var(--grid--app-xheight) - 11px) 0 40px 0;
   }
@@ -189,9 +162,7 @@
     --font--size-huge: clamp(32px, 7.5vw, 7.5vw);
     --font--size-large: clamp(22px, 2.64vw, 2.64vw);
   }
-  .app-grid-overlay .column:nth-child(n+3) {
-    display: none;
-  }
+  
   .section h1 {
     line-height: 1.5;
   }
@@ -231,8 +202,6 @@
   .section.projects.single-project .tags-container-wrapper .tags-container ul {
     justify-content: flex-start;
   }
-
-  .carousel ul li > img {object-fit: cover;}
 
 }
 

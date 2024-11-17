@@ -4,7 +4,7 @@
   <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Blogreader | My New Hugo Site</title>
+<title>Blogreader | Bang Geul Han Portfolio</title>
 <link rel="stylesheet" href="/css/normalize-8.0.1.css">
 <link rel="stylesheet" href="/css/reset.css">
 <link rel="stylesheet" href="/css/fonts.css">
@@ -147,10 +147,10 @@
   </div> 
   <div class="project-nav">
     <div class="project-nav-item">
-      <a href="/projects/blogreader/"> &#8613; </a>
+      <a href="/projects/blogreader/"> &#8593; </a>
     </div>
     <div class="project-nav-item">
-      <a href="/projects/conversations/"> &#8615</a>
+      <a href="/projects/conversations/"> &#8595;</a>
     </div>
   </div>
   
@@ -180,11 +180,19 @@
   <link rel="stylesheet" href="/css/carousel.css">
   <script>
 
-$(document).ready(function(){
-  
+
+
+
+
+
+
+var $prevColor;
+
+if(localStorage.getItem("prevColor")){
   $prevColor = localStorage.getItem("prevColor");
-  console.log("this is the color from the previous page: " + $prevColor);
-});
+} else {
+  $prevColor = 'rgba(0 0 0 / 1)';
+}
 
 const colorChoices = [
   'rgba(224 0 0 / 1)',
@@ -230,7 +238,7 @@ function changeColorTo(destColor, animate){
 
 function changeColorFromTo(){
   
-  changeColorTo($prevColor, false);
+  
   
   
   const colorChoice = newRandomColor();

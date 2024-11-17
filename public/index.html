@@ -5,7 +5,7 @@
   <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>My New Hugo Site</title>
+<title>Bang Geul Han Portfolio</title>
 <link rel="stylesheet" href="/css/normalize-8.0.1.css">
 <link rel="stylesheet" href="/css/reset.css">
 <link rel="stylesheet" href="/css/fonts.css">
@@ -216,11 +216,19 @@
   <link rel="stylesheet" href="/css/carousel.css">
   <script>
 
-$(document).ready(function(){
-  
+
+
+
+
+
+
+var $prevColor;
+
+if(localStorage.getItem("prevColor")){
   $prevColor = localStorage.getItem("prevColor");
-  console.log("this is the color from the previous page: " + $prevColor);
-});
+} else {
+  $prevColor = 'rgba(0 0 0 / 1)';
+}
 
 const colorChoices = [
   'rgba(224 0 0 / 1)',
@@ -266,7 +274,7 @@ function changeColorTo(destColor, animate){
 
 function changeColorFromTo(){
   
-  changeColorTo($prevColor, false);
+  
   
   
   const colorChoice = newRandomColor();
