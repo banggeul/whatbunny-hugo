@@ -1,6 +1,6 @@
 baseURL = 'https://banggeul-portfolioooo.netlify.app'
 languageCode = 'en-US'
-title = 'Bang Geul Han's Portfolio Website'
+title = 'Bang Geul Han Portfolio'
 
 [[menus.main]]
 name = 'Projects'
