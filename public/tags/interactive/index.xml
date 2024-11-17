@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Interactive on My New Hugo Site</title>
+    <link>http://localhost:1313/tags/interactive/</link>
+    <description>Recent content in Interactive on My New Hugo Site</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 15 Apr 2024 11:00:00 -0700</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/interactive/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Blogreader</title>
+      <link>http://localhost:1313/projects/blogreader/</link>
+      <pubDate>Mon, 15 Apr 2024 11:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/projects/blogreader/</guid>
+      <description>&lt;p&gt;Blogreader is network-driven dynamic video installation.This computer-based installation presents a continually updating and changing delivery of texts by extracting and ‘reading’ the latest postings from various teenage blog sites. There is a finite database of 3800 recorded words comprising the figure’s repertoire and when no matching word is found in the database, the stream of words gets broken by a brief moment of silence in which the figure disappears from the screen while the word in question is displayed on the opposite end of the snowscape.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Conversations</title>
+      <link>http://localhost:1313/projects/conversations/</link>
+      <pubDate>Mon, 15 Apr 2024 11:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/projects/conversations/</guid>
+      <description>&lt;!-- raw HTML omitted --&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;p&gt;Occaecat aliqua consequat laborum ut ex aute aliqua culpa quis irure esse magna dolore quis. Proident fugiat labore eu laboris&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Baguette Hell</title>
+      <link>http://localhost:1313/projects/baguettehell/</link>
+      <pubDate>Wed, 31 Dec 1969 19:33:43 -0500</pubDate>
+      <guid>http://localhost:1313/projects/baguettehell/</guid>
+      <description>&lt;p&gt;Playing on the word “bagatelle” (meaning a trifling or inconsequential thing), Baguette Hell features a series of interactive iPad and iPhone apps toying with images of its namesake French bread. Reminiscent of Dadaist exercises, the apps are seemingly impractical or pointless, but are also playful, flirtatious and delightfully strange.&lt;/p&gt;&#xA;&lt;p&gt;Baguette about it, Baguettedipus, Baguette Me Not, Baguette Vision, Whack a Baguette, Spin the Baguette, Baguette A Time, Baguette Clock,Soggy Baguette,Baguette List, Baguettopus, Baguette Stop&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

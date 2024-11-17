@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en-us" dir="ltr">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Projects | My New Hugo Site</title>
+<link rel="stylesheet" href="/css/normalize-8.0.1.css">
+<link rel="stylesheet" href="/css/reset.css">
+<link rel="stylesheet" href="/css/fonts.css">
+<link rel="stylesheet" href="/css/variables.css">
+
+    <link rel="stylesheet" href="/css/main.css">
+
+
+<link rel="stylesheet" href="/css/media-queries.css">
+
+      <script src="/js/main.js"></script>
+
+
+
+
+
+
+</head>
+
+  
+  <body onload="changeColorFromTo()">
+  <header class="app-header">
+    <div class="content">
+  
+    <div class="brand">
+        <h3>
+                <span>B</span>
+                <span>a</span>
+                <span>n</span>
+                <span>g</span>
+                <span>&nbsp;</span>
+                <span>G</span>
+                <span>e</span>
+                <span>u</span>
+                <span>l</span>
+                <span>&nbsp;</span>
+                <span>H</span>
+                <span>a</span>
+                <span>n</span>
+                
+        </h3>
+    </div>
+    <div class="myname">
+      <a href="/about">한방글</a> 
+    </div>
+    
+</div>
+
+
+
+
+  </header>
+  
+  
+  <nav class="app-nav">
+    <div class="content">
+  
+    
+    <div class="item">
+      <a href="/">Projects</a>
+      </div>
+    
+    <div class="item">
+      <a href="/about/">About</a>
+      </div>
+    
+    <div class="item">
+      <a href="/tags/">Tags</a>
+      </div>
+    </div>
+  </nav>
+
+  <main class="app-main">
+    
+<section class="section projects">
+  <div class="content">
+  <h1>Projects</h1>
+  
+  
+    <h2><a href="/projects/blogreader/">Blogreader</a></h2>
+    <p>Blogreader is network-driven dynamic video installation.This computer-based installation presents a continually updating and changing delivery of texts by extracting and ‘reading’ the latest postings from various teenage blog sites. There is a finite database of 3800 recorded words comprising the figure’s repertoire and when no matching word is found in the database, the stream of words gets broken by a brief moment of silence in which the figure disappears from the screen while the word in question is displayed on the opposite end of the snowscape.</p>
+  
+    <h2><a href="/projects/conversations/">Conversations</a></h2>
+    <!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<p>Occaecat aliqua consequat laborum ut ex aute aliqua culpa quis irure esse magna dolore quis. Proident fugiat labore eu laboris</p>
+  
+    <h2><a href="/projects/warpweft/">Warp and Weft 1 - 4</a></h2>
+    <p>Warp and Weft is an ongoing project involving a series of hand-woven tapestries constructed from paper printouts of legal documents (from state codes concerning abortion, and anti-immigration memoranda to Supreme Court opinions from the last decade, which have steadily gutted the Voting Rights Act of 1965.) Accompanying the tapestry is a photographic series in which I sleep, meditate, read and poop while wearing the fabric in various ways.</p>
+  
+    <h2><a href="/projects/baguettehell/">Baguette Hell</a></h2>
+    <p>Playing on the word “bagatelle” (meaning a trifling or inconsequential thing), Baguette Hell features a series of interactive iPad and iPhone apps toying with images of its namesake French bread. Reminiscent of Dadaist exercises, the apps are seemingly impractical or pointless, but are also playful, flirtatious and delightfully strange.</p>
+<p>Baguette about it, Baguettedipus, Baguette Me Not, Baguette Vision, Whack a Baguette, Spin the Baguette, Baguette A Time, Baguette Clock,Soggy Baguette,Baguette List, Baguettopus, Baguette Stop</p>
+  
+    <h2><a href="/projects/soft_display/">Soft Display Project</a></h2>
+    <p>Occaecat aliqua consequat laborum ut ex aute aliqua culpa quis irure esse magna dolore quis. Proident fugiat labore eu laboris</p>
+  
+</div>
+</section>
+
+  </main>
+  <footer>
+    
+
+<div class="item contact">
+    <a href="mailto:han.banggeul@gmail.com?subject=Enquiry%20from%20website">info@whatbunny.org</a>
+</div>
+<div class="item contact">
+    <a href="https://www.instagram.com/baombaom" target="_blank">Instagram</a>
+</div>
+
+       
+
+
+  </footer>
+  <script src="/js/modernizr.js"></script>
+  <script src="/js/jquery-3.7.1.min.js"></script>
+  <script src="/js/jquery-easing-1.4.1.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-color/2.1.2/jquery.color.min.js" integrity="sha512-VjRpiWhUqdNa9bwBV7LnlG8CwsCVPenFyOQTSRTOGHw/tjtME96zthh0Vv9Itf3i8w4CkUrdYaS6+dAt1m1YXQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="/js/script.js"></script>
+  <script type="text/javascript" src="/js/carousel.js"></script>
+  <link rel="stylesheet" href="/css/carousel.css">
+  <script>
+
+$(document).ready(function(){
+  
+  $prevColor = localStorage.getItem("prevColor");
+  console.log("this is the color from the previous page: " + $prevColor);
+});
+
+const colorChoices = [
+  'rgba(224 0 0 / 1)',
+  'rgba(140 0 255 / 1)',
+  'rgba(0 0 255 / 1) ',
+  'rgba(214 61 0 / 1)',
+  'rgba(0 133 77 / 1)',
+  'rgba(19 126 131 / 1)',
+  'rgba(202 22 124 / 1)'
+];
+
+const transparency = [
+  '/ 1)',
+  '/ 0.5)',
+  '/ 0.33)',
+  '/ 0.25)',
+  '/ 0.1)'
+]
+function changeColorTo(destColor, animate){
+  
+  const root = document.documentElement;
+  const destColorString = destColor.split('/')[0];
+  const colorHeaderChoice = destColorString;
+  const color100 = colorHeaderChoice + transparency[0];
+  const color50 = colorHeaderChoice + transparency[1];
+  const color33 = colorHeaderChoice + transparency[2];
+  const color25 = colorHeaderChoice + transparency[3];
+  const color10 = colorHeaderChoice + transparency[4];
+  if(animate){
+    $( "body" ).animate({
+      color: color100
+    }, 1000);
+  } else {
+  
+  
+  root.style.setProperty('--color--foreground--100', color100);
+  root.style.setProperty('--color--foreground--50', color50);
+  root.style.setProperty('--color--foreground--33', color33);
+  root.style.setProperty('--color--foreground--25', color25);
+  root.style.setProperty('--color--foreground--10', color10);
+  }
+}
+
+function changeColorFromTo(){
+  
+  changeColorTo($prevColor, false);
+  
+  
+  const colorChoice = newRandomColor();
+  changeColorTo(colorChoice, false);
+  
+  
+  console.log("Setting the prevColor in the localStorage to: " + colorChoice);
+  localStorage.setItem("prevColor", colorChoice);
+}
+
+function newRandomColor() {
+  do {
+    newColor = colorChoices[Math.floor(Math.random()* colorChoices.length)];
+  }
+  while (newColor == $prevColor);
+  
+  return newColor;
+}
+  </script>
+</body>
+</html>

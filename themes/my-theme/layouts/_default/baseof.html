@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="{{ site.Language.LanguageCode }}" dir="{{ or site.Language.LanguageDirection `ltr` }}">
+<head>
+  {{ partial "head.html" . }}
+</head>
+
+  <!-- {{ if eq .Type "about" }}
+    <body onload="changeColorFromTo('{{.Type}}')">
+  {{ else }}
+    <body onload="changeColorFromTo('{{.Type}}')">
+  {{ end }} -->
+  <body onload="changeColorFromTo()">
+  <header class="app-header">
+    {{ partial "header.html" . }}
+  </header>
+  <!-- this is the main navigation -->
+  {{ partial "menu.html" (dict "menuID" "main" "page" .) }}
+  <main class="app-main">
+    {{ block "main" . }}{{ end }}
+  </main>
+  <footer>
+    {{ partial "footer.html" . }}
+  </footer>
+  <script src="/js/modernizr.js"></script>
+  <script src="/js/jquery-3.7.1.min.js"></script>
+  <script src="/js/jquery-easing-1.4.1.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-color/2.1.2/jquery.color.min.js" integrity="sha512-VjRpiWhUqdNa9bwBV7LnlG8CwsCVPenFyOQTSRTOGHw/tjtME96zthh0Vv9Itf3i8w4CkUrdYaS6+dAt1m1YXQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="/js/script.js"></script>
+  <script type="text/javascript" src="/js/carousel.js"></script>
+  <link rel="stylesheet" href="/css/carousel.css">
+  <script>
+
+$(document).ready(function(){
+  // $('body').hide();
+  $prevColor = localStorage.getItem("prevColor");
+  console.log("this is the color from the previous page: " + $prevColor);
+});
+// localStorage.setItem("prevColor",'rgba(0,0,0, 1)');
+const colorChoices = [
+  'rgba(224 0 0 / 1)',
+  'rgba(140 0 255 / 1)',
+  'rgba(0 0 255 / 1) ',
+  'rgba(214 61 0 / 1)',
+  'rgba(0 133 77 / 1)',
+  'rgba(19 126 131 / 1)',
+  'rgba(202 22 124 / 1)'
+];
+
+const transparency = [
+  '/ 1)',
+  '/ 0.5)',
+  '/ 0.33)',
+  '/ 0.25)',
+  '/ 0.1)'
+]
+function changeColorTo(destColor, animate){
+  
+  const root = document.documentElement;
+  const destColorString = destColor.split('/')[0];
+  const colorHeaderChoice = destColorString;
+  const color100 = colorHeaderChoice + transparency[0];
+  const color50 = colorHeaderChoice + transparency[1];
+  const color33 = colorHeaderChoice + transparency[2];
+  const color25 = colorHeaderChoice + transparency[3];
+  const color10 = colorHeaderChoice + transparency[4];
+  if(animate){
+    $( "body" ).animate({
+      color: color100
+    }, 1000);
+  } else {
+  // Set the value of the CSS variable
+  
+  root.style.setProperty('--color--foreground--100', color100);
+  root.style.setProperty('--color--foreground--50', color50);
+  root.style.setProperty('--color--foreground--33', color33);
+  root.style.setProperty('--color--foreground--25', color25);
+  root.style.setProperty('--color--foreground--10', color10);
+  }
+}
+
+function changeColorFromTo(){
+  //first set the current color to the previous color then render the page
+  changeColorTo($prevColor, false);
+  // $('body').show();
+  
+  const colorChoice = newRandomColor();
+  changeColorTo(colorChoice, false);
+  //setTimeout(function(){changeColorTo(colorChoice, false);}, 100);
+  
+  console.log("Setting the prevColor in the localStorage to: " + colorChoice);
+  localStorage.setItem("prevColor", colorChoice);
+}
+
+function newRandomColor() {
+  do {
+    newColor = colorChoices[Math.floor(Math.random()* colorChoices.length)];
+  }
+  while (newColor == $prevColor);
+  
+  return newColor;
+}
+  </script>
+</body>
+</html>

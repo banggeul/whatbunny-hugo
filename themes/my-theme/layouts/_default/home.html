@@ -1,0 +1,32 @@
+{{ define "main" }}
+  <section class="section projects">
+    <div class="content">
+  <!-- {{ .Content }} -->
+  {{ range where site.RegularPages "Type" "projects"}}
+  <a href="{{ .RelPermalink }}">
+    <div class="thumbnail_card">
+      <div class="thumbnail_title">
+        <h2 class="date-year">{{ .Params.year }}</h2>
+        <h2>{{ .LinkTitle }}</h2>
+      </div>
+      <div class="thumbnail_images">
+        {{ with .Resources.GetMatch "thumb.*" }}
+        {{ with .Resize "200x" }}
+        <div style="background-image: url('{{ .RelPermalink }}'); height: 150px;"> </div>
+        <div style="filter: grayscale(0.3);background-image: url('{{ .RelPermalink }}'); height: 150px;"> </div>
+        <div style="filter: grayscale(0.6);background-image: url('{{ .RelPermalink }}'); height: 150px;"> </div>
+        <div style="filter: grayscale(1);background-image: url('{{ .RelPermalink }}'); height: 150px;"> </div>
+          <!-- <img src="{{ .RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}" alt="">
+          <img style="opacity: 0.8;" src="{{ .RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}" alt="">
+          <img style="opacity: 0.6;" src="{{ .RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}" alt="">
+          <img style="opacity: 0.4;" src="{{ .RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}" alt=""> -->
+        {{ end }}
+      </div>
+    </div>
+  </a>
+  {{ end }}
+
+  {{ end }}
+</div>
+  </section>
+{{ end }}

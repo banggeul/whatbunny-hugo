@@ -1,0 +1,71 @@
+ {{ define "main" }}
+ 
+<section class="section projects single-project">
+  {{ $thisPermaLink := .RelPermalink }}
+  <div class="content">
+    <!-- do some digging to get the next and previous work url -->
+    {{ $c := where .Site.RegularPages "Type" "projects" }}
+    {{ $s := $c}}
+    {{  $pageFound := "False" }}
+    {{ $firstPageLink := "unknown" }}
+    {{ $prevPageLink := .RelPermalink }}
+    {{ $nextPageLink := "unknown" }}
+    {{ range $k, $v := $s }}
+        
+        {{ if eq $k 0}}
+          {{ $firstPageLink = .RelPermalink}}
+        {{ end }}
+        {{if eq .RelPermalink $thisPermaLink }}
+          {{ $pageFound = "True"}}
+        {{else if eq $pageFound "False"}}
+          {{$prevPageLink = .RelPermalink}}
+        {{else}}
+          {{ $nextPageLink = .RelPermalink }}
+          {{ break }}
+        {{end}}
+    {{ end }}
+    {{ if eq $nextPageLink "unknown"}}
+        {{ $nextPageLink = $firstPageLink }}
+    {{end}}
+    <!-- now fun stuff -->
+    <h1>{{ .Title }}</h1>
+
+    <div class="tags-container-wrapper">
+        <div class="year-container">
+          <div class="tags-item">{{ .Params.year }}</div>
+          <div class="tags-item">{{ .Params.medium }}</div>
+        </div>
+      {{ partial "terms.html" (dict "taxonomy" "tags" "page" .) }}
+    </div>
+      <!-- {{ (.Page.Resources.Match "images/*.*") | len }} -->
+      {{ if gt ((.Page.Resources.Match "images/*.*") | len) 1 }}
+          {{ partial "carousel.html" (dict "items" "1" "height" "70" "unit" "%" "duration" "7000" "data" "images" "page" .) }}
+      {{ else }}
+          {{ with $first_image := index (.Page.Resources.Match "images/*.*") 0 }}
+            <img class="hero" src="{{ .RelPermalink }}">
+          {{ end }}
+      {{ end }}
+  
+    <div class="description_container">
+        {{ .Content }}
+    </div>
+    <div class="project-nav-bottom">
+      <div class="project-nav-item">
+        <a href="{{ $prevPageLink }}"> &#8592; Previous </a>
+      </div>
+      <div class="project-nav-item">
+        <a href="{{ $nextPageLink }}"> Next &#8594; </a>
+      </div>
+    </div>
+  </div> <!-- end the content div  -->
+  <div class="project-nav">
+    <div class="project-nav-item">
+      <a href="{{ $prevPageLink }}"> &#8613; </a>
+    </div>
+    <div class="project-nav-item">
+      <a href="{{ $nextPageLink }}"> &#8615</a>
+    </div>
+  </div>
+  
+</section>
+{{ end }} 

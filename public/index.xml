@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects on My New Hugo Site</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content in Projects on My New Hugo Site</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 15 Apr 2024 11:00:00 -0700</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Blogreader</title>
+      <link>http://localhost:1313/projects/blogreader/</link>
+      <pubDate>Mon, 15 Apr 2024 11:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/projects/blogreader/</guid>
+      <description>&lt;p&gt;Blogreader is network-driven dynamic video installation.This computer-based installation presents a continually updating and changing delivery of texts by extracting and ‘reading’ the latest postings from various teenage blog sites. There is a finite database of 3800 recorded words comprising the figure’s repertoire and when no matching word is found in the database, the stream of words gets broken by a brief moment of silence in which the figure disappears from the screen while the word in question is displayed on the opposite end of the snowscape.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Conversations</title>
+      <link>http://localhost:1313/projects/conversations/</link>
+      <pubDate>Mon, 15 Apr 2024 11:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/projects/conversations/</guid>
+      <description>&lt;!-- raw HTML omitted --&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;p&gt;Occaecat aliqua consequat laborum ut ex aute aliqua culpa quis irure esse magna dolore quis. Proident fugiat labore eu laboris&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>About Me</title>
+      <link>http://localhost:1313/about/</link>
+      <pubDate>Sun, 01 Jan 2023 08:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/about/</guid>
+      <description>&lt;p&gt;Born and raised in Seoul, Korea, in 1978 and based in the US since 2003, Bang Geul Han’s work has been shown in venues including The Bronx Museum of the Arts, Queens Museum, NURTUREart, A.I.R. Gallery, The 8th Floor at The Shelley and Donald Rubin Foundation, Smack Mellon in New York City, and Centro Internazionale per l’Arte Contemporanea in Rome. She is a recipient of a number of artist residencies and fellowships, including Creative Capital Award, Artist in the Marketplace program at the Bronx Museum of the Arts, Lower Manhattan Cultural Council’s Workspace program, A.I.R. Fellowship, MacDowell Fellowship, Skowhegan School of Painting and Sculpture, and Center for Emerging Visual Artists in Philadelphia, PA.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Warp and Weft 1 - 4</title>
+      <link>http://localhost:1313/projects/warpweft/</link>
+      <pubDate>Wed, 31 Dec 1969 19:33:44 -0500</pubDate>
+      <guid>http://localhost:1313/projects/warpweft/</guid>
+      <description>&lt;p&gt;Warp and Weft is an ongoing project involving a series of hand-woven tapestries constructed from paper printouts of legal documents (from state codes concerning abortion, and anti-immigration memoranda to Supreme Court opinions from the last decade, which have steadily gutted the Voting Rights Act of 1965.) Accompanying the tapestry is a photographic series in which I sleep, meditate, read and poop while wearing the fabric in various ways.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Baguette Hell</title>
+      <link>http://localhost:1313/projects/baguettehell/</link>
+      <pubDate>Wed, 31 Dec 1969 19:33:43 -0500</pubDate>
+      <guid>http://localhost:1313/projects/baguettehell/</guid>
+      <description>&lt;p&gt;Playing on the word “bagatelle” (meaning a trifling or inconsequential thing), Baguette Hell features a series of interactive iPad and iPhone apps toying with images of its namesake French bread. Reminiscent of Dadaist exercises, the apps are seemingly impractical or pointless, but are also playful, flirtatious and delightfully strange.&lt;/p&gt;&#xA;&lt;p&gt;Baguette about it, Baguettedipus, Baguette Me Not, Baguette Vision, Whack a Baguette, Spin the Baguette, Baguette A Time, Baguette Clock,Soggy Baguette,Baguette List, Baguettopus, Baguette Stop&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Soft Display Project</title>
+      <link>http://localhost:1313/projects/soft_display/</link>
+      <pubDate>Wed, 31 Dec 1969 19:33:43 -0500</pubDate>
+      <guid>http://localhost:1313/projects/soft_display/</guid>
+      <description>&lt;p&gt;Occaecat aliqua consequat laborum ut ex aute aliqua culpa quis irure esse magna dolore quis. Proident fugiat labore eu laboris&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
