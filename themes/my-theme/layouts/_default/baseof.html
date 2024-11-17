@@ -30,12 +30,20 @@
   <link rel="stylesheet" href="/css/carousel.css">
   <script>
 
-$(document).ready(function(){
-  // $('body').hide();
-  $prevColor = localStorage.getItem("prevColor");
-  console.log("this is the color from the previous page: " + $prevColor);
-});
+// $(document).ready(function(){
+//   // $('body').hide();
+//   $prevColor = localStorage.getItem("prevColor");
+//   console.log("this is the color from the previous page: " + $prevColor);
+// });
 // localStorage.setItem("prevColor",'rgba(0,0,0, 1)');
+var $prevColor;
+
+if(localStorage.getItem("prevColor")){
+  $prevColor = localStorage.getItem("prevColor");
+} else {
+  $prevColor = 'rgba(0 0 0 / 1)';
+}
+
 const colorChoices = [
   'rgba(224 0 0 / 1)',
   'rgba(140 0 255 / 1)',
@@ -80,7 +88,7 @@ function changeColorTo(destColor, animate){
 
 function changeColorFromTo(){
   //first set the current color to the previous color then render the page
-  changeColorTo($prevColor, false);
+  // changeColorTo($prevColor, false);
   // $('body').show();
   
   const colorChoice = newRandomColor();
