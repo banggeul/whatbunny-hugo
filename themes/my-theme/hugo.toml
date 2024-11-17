@@ -1,6 +1,6 @@
 baseURL = 'https://example.org/'
 languageCode = 'en-US'
-title = 'My New Hugo Site'
+title = 'Bang Geul Han's Portfolio Website'
 
 [[menus.main]]
 name = 'Projects'
