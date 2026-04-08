@@ -1,10 +1,11 @@
 +++
-title = 'Warp and Weft 1 - 4'
-date = 2024
+type= "projects"
+title = 'Warp & Weft (I-V)'
+date = 2022-06-01
 draft = false
-tags = ['installation','weaving', 'sculpture']
+tags = ['installation','weaving','paper']
 [params]
-    year = 2021
+    year = 2022
     medium = "Handwoven paper tapestry, photographs"
 +++
 

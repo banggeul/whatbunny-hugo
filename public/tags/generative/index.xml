@@ -6,21 +6,35 @@
     <description>Recent content in Generative on Bang Geul Han Portfolio</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 15 Apr 2024 11:00:00 -0700</lastBuildDate>
+    <lastBuildDate>Sun, 14 Dec 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/generative/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Blogreader</title>
-      <link>http://localhost:1313/projects/blogreader/</link>
-      <pubDate>Mon, 15 Apr 2024 11:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/projects/blogreader/</guid>
-      <description>&lt;p&gt;Blogreader is network-driven dynamic video installation.This computer-based installation presents a continually updating and changing delivery of texts by extracting and ‘reading’ the latest postings from various teenage blog sites. There is a finite database of 3800 recorded words comprising the figure’s repertoire and when no matching word is found in the database, the stream of words gets broken by a brief moment of silence in which the figure disappears from the screen while the word in question is displayed on the opposite end of the snowscape.&lt;/p&gt;</description>
+      <title>Alphabits</title>
+      <link>http://localhost:1313/projects/alphabits/</link>
+      <pubDate>Sun, 14 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/alphabits/</guid>
+      <description>&lt;p&gt;Generative realtime animation system that can fluidly generate Korean and English alphabets, transforming back and forth into each other.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Conversations</title>
-      <link>http://localhost:1313/projects/conversations/</link>
-      <pubDate>Mon, 15 Apr 2024 11:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/projects/conversations/</guid>
-      <description>&lt;!-- raw HTML omitted --&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;p&gt;Occaecat aliqua consequat laborum ut ex aute aliqua culpa quis irure esse magna dolore quis. Proident fugiat labore eu laboris&lt;/p&gt;</description>
+      <title>Two Hearts</title>
+      <link>http://localhost:1313/projects/twohearts/</link>
+      <pubDate>Sun, 14 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/twohearts/</guid>
+      <description>&lt;div&#xA;          style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;&#xA;        &lt;iframe&#xA;          src=&#34;https://player.vimeo.com/video/1180832655?dnt=0&#34;&#xA;            style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allow=&#34;fullscreen&#34;&gt;&#xA;        &lt;/iframe&gt;&#xA;      &lt;/div&gt;&#xA;&#xA;&lt;p&gt;Two Hearts interlaces poems by Emily Dickinson with those of Kim Myung Soon—a tragic, pioneering figure in Korean literature whose longing and unwavering conviction in art resonate across time and space. The accompanying music by composer Yoon-Ji Lee similarly weaves together cultural hybrids and contradictions: a fretless guitar performs Gayageum Sanjo in the style of Sung Geum-yeon, while an accordion plays Women&amp;rsquo;s Life, the 1968 South Korean megahit sung by Lee Mi-ja about women’s suffering and perseverance.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>talk me tender</title>
+      <link>http://localhost:1313/projects/talkmetender/</link>
+      <pubDate>Wed, 01 Jun 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/talkmetender/</guid>
+      <description>&lt;p&gt;Developed in collaboration with London-based artist Minna Pöllänen. Trained on texts concerning themes of care and mortality by both feminist scholars and sources from popular culture, the chatbot provides a counterpoint to the exhibition’s probing of biopolitical frameworks, by looking at vulnerability and difference as sites of care and possibility rather than exploitation and subjugation.&lt;/p&gt;&#xA;&lt;p&gt;This work was made possible by Together Alone 2.0 commission by the Finnish Academic and Cultural Institute of UK/Ireland.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Through the Gaps Between my Teeth</title>
+      <link>http://localhost:1313/projects/throughthegaps/</link>
+      <pubDate>Wed, 01 Feb 2017 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/throughthegaps/</guid>
+      <description>&lt;p&gt;Through the Gaps Between My Teeth is a generative real-time animation in which alphabetical characters, swarming around the projected image, occasionally come together to form words and sentences, oscillating between the transcript of President Trump’s Access Hollywood tape and first-person accounts of sexual assault publicly posted on Twitter. The deliberate structural limitation of the custom software (the fact that every Twitter message has to be reconstructed using only the letters provided by DJT’s remarks) leaves imperfections in the text alluding to the structural limitations involved in speaking out about such subject matter.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

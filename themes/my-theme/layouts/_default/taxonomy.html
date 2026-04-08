@@ -1,0 +1,25 @@
+{{ define "main" }}
+<section class="section projects">
+    <div class="content projects-by-tag">
+        <h1>Tag: {{ .Title }}</h1>
+
+        <div class="project-grid">
+            {{ range .Pages }}
+            <a href="{{ .RelPermalink }}">
+                <div class="thumbnail_card">
+                    <h2>{{ .Title }}</h2>
+                    <div class="thumbnail_images">
+                        {{ with .Resources.GetMatch "thumb.*" }}
+                        {{ with .Resize "400x" }}
+                        <div style="background-image: url('{{ .RelPermalink }}');"></div>
+
+                        {{ end}}
+                        {{ end }}
+                    </div>
+                </div>
+            </a>
+            {{ end }}
+        </div>
+    </div>
+</section>
+{{ end }}

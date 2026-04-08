@@ -1,0 +1,27 @@
+{{ define "main" }}
+<section class="section projects hellobello">
+    <div class="content">
+        {{ range (where site.RegularPages "Type" "projects").ByDate.Reverse }}
+        <a href="{{ .RelPermalink }}">
+            <div class="thumbnail_card">
+                <div class="thumbnail_title">
+                    <h2 class="date-year">{{ .Date.Year }}</h2>
+                    <h2>{{ .LinkTitle }}</h2>
+                </div>
+                <div class="thumbnail_images">
+                    {{ with .Resources.GetMatch "thumb.*" }}
+                    {{ with .Resize "400x" }}
+                    <div style="background-image: url('{{ .RelPermalink }}');"></div>
+                    <div style="background-image: url('{{ .RelPermalink }}');"></div>
+                    <div style="filter: grayscale(0.3);background-image: url('{{ .RelPermalink }}');"></div>
+                    <div style="filter: grayscale(0.6);background-image: url('{{ .RelPermalink }}');"></div>
+                    <div style="filter: grayscale(1);background-image: url('{{ .RelPermalink }}');"></div>
+                    {{ end }}
+                    {{ end }}
+                </div>
+            </div>
+        </a>
+        {{ end }}
+    </div>
+</section>
+{{ end }}

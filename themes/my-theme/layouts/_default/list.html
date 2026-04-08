@@ -1,15 +1,17 @@
-
 {{ define "main" }}
-<section class="section projects">
+<section class="section">
   <div class="content">
-  <h1>{{ .Title }}</h1>
-  {{ .Content }}
-  {{ range .Pages }}
-    <h2><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
-    {{ .Summary }}
-  {{ end }}
-</div>
+    <h1>All Tags</h1>
+
+    <ul class="tag-list">
+      {{ range .Data.Terms.Alphabetical }}
+      <li>
+        <a href="{{ .Page.RelPermalink }}">
+          {{ .Page.Title }} ({{ .Count }})
+        </a>
+      </li>
+      {{ end }}
+    </ul>
+  </div>
 </section>
 {{ end }}
-
-

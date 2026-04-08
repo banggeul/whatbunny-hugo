@@ -1,10 +1,11 @@
 +++
 title = 'Baguette Hell'
-date = 2023
+type= "projects"
+date = 2012-06-01
 draft = false
-tags = ['interactive','mobile app']
+tags = ['interactive','mobile app','software']
 [params]
-    year = 2023
+    year = 2012
     medium = "iPad apps, Looping HD 3D animation"
 +++
 

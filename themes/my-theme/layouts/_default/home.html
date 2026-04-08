@@ -1,32 +1,66 @@
 {{ define "main" }}
-  <section class="section projects">
-    <div class="content">
-  <!-- {{ .Content }} -->
-  {{ range where site.RegularPages "Type" "projects"}}
-  <a href="{{ .RelPermalink }}">
-    <div class="thumbnail_card">
-      <div class="thumbnail_title">
-        <h2 class="date-year">{{ .Params.year }}</h2>
-        <h2>{{ .LinkTitle }}</h2>
-      </div>
-      <div class="thumbnail_images">
-        {{ with .Resources.GetMatch "thumb.*" }}
-        {{ with .Resize "200x" }}
-        <div style="background-image: url('{{ .RelPermalink }}'); height: 150px;"> </div>
-        <div style="filter: grayscale(0.3);background-image: url('{{ .RelPermalink }}'); height: 150px;"> </div>
-        <div style="filter: grayscale(0.6);background-image: url('{{ .RelPermalink }}'); height: 150px;"> </div>
-        <div style="filter: grayscale(1);background-image: url('{{ .RelPermalink }}'); height: 150px;"> </div>
-          <!-- <img src="{{ .RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}" alt="">
-          <img style="opacity: 0.8;" src="{{ .RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}" alt="">
-          <img style="opacity: 0.6;" src="{{ .RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}" alt="">
-          <img style="opacity: 0.4;" src="{{ .RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}" alt=""> -->
-        {{ end }}
-      </div>
-    </div>
-  </a>
-  {{ end }}
+{{ $projects := where site.RegularPages "Section" "projects" }}
 
-  {{ end }}
-</div>
-  </section>
+{{ if gt (len $projects) 0 }}
+{{ $entries := slice }}
+
+{{ range $projects }}
+{{ $project := . }}
+{{ $splash := $project.Resources.GetMatch "images/splash.*" }}
+
+{{ if $splash }}
+{{ $year := "" }}
+
+{{ with $project.Params.year }}
+{{ $year = printf "%v" . }}
+{{ else }}
+{{ $year = $project.Date.Format "2006" }}
+{{ end }}
+
+{{ $entries = $entries | append (dict
+"image" $splash.RelPermalink
+"project" $project.RelPermalink
+"title" $project.Title
+"medium" $project.Params.medium
+"date" $year
+) }}
+{{ end }}
+{{ end }}
+
+{{ if gt (len $entries) 0 }}
+<section class="landing">
+  <div class="landing-bg" id="landing-bg">
+    <div class="landing-overlay">
+      <a class="landing-button" href="/projects/">Enter</a>
+      <a class="landing-secondary" id="landing-button" href="#">
+        <span id="landing-title">Project</span>
+        <br />
+        <!-- <span>(</span>
+        <span id="landing-date">Date</span>
+        <span>)</span> -->
+        <span id="landing-medium" style="font-size: smaller;">Medium</span>
+      </a>
+    </div>
+
+    <div id="landing-data" style="display:none;">
+      {{ range $entries }}
+      <span class="landing-item" data-image="{{ .image }}" data-project="{{ .project }}" data-title="{{ .title }}"
+        data-date="{{ .date }}" data-medium="{{ .medium }}">
+      </span>
+      {{ end }}
+    </div>
+  </div>
+</section>
+
+<script src="/js/splash.js"></script>
+{{ else }}
+<section class="landing">
+  <p>No splash images found.</p>
+</section>
+{{ end }}
+{{ else }}
+<section class="landing">
+  <p>No project pages found.</p>
+</section>
+{{ end }}
 {{ end }}

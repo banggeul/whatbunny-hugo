@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en-us" dir="ltr">
+
 <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
   <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -10,8 +11,9 @@
 <link rel="stylesheet" href="/css/fonts.css">
 <link rel="stylesheet" href="/css/variables.css">
 
-    <link rel="stylesheet" href="/css/main.css">
 
+
+<link rel="stylesheet" href="/css/main.css">
 
 <link rel="stylesheet" href="/css/media-queries.css">
 
@@ -24,59 +26,55 @@
 
 </head>
 
+
+
+<body onload="changeColorFromTo()">
   
-  <body onload="changeColorFromTo()">
   <header class="app-header">
     <div class="content">
+
+  <a class="brand" href="/">
+    <h3>
+      <span>B</span>
+      <span>a</span>
+      <span>n</span>
+      <span>g</span>
+      <span>&nbsp;</span>
+      <span>G</span>
+      <span>e</span>
+      <span>u</span>
+      <span>l</span>
+      <span>&nbsp;</span>
+      <span>H</span>
+      <span>a</span>
+      <span>n</span>
+      
+    </h3>
+  </a>
+  <div class="myname">
+    <a href="/about">한방글</a>
+  </div>
   
-    <div class="brand">
-        <h3>
-                <span>B</span>
-                <span>a</span>
-                <span>n</span>
-                <span>g</span>
-                <span>&nbsp;</span>
-                <span>G</span>
-                <span>e</span>
-                <span>u</span>
-                <span>l</span>
-                <span>&nbsp;</span>
-                <span>H</span>
-                <span>a</span>
-                <span>n</span>
-                
-        </h3>
-    </div>
-    <div class="myname">
-      <a href="/about">한방글</a> 
-    </div>
-    
 </div>
 
 
-
-
   </header>
-  
   
   <nav class="app-nav">
     <div class="content">
   
     
     <div class="item">
-      <a href="/">Projects</a>
+      <a aria-current="true" class="ancestor" href="/projects/">Projects</a>
       </div>
     
     <div class="item">
       <a href="/about/">About</a>
       </div>
-    
-    <div class="item">
-      <a href="/tags/">Tags</a>
-      </div>
     </div>
   </nav>
 
+  
   <main class="app-main">
     
  
@@ -103,6 +101,126 @@
         
         
           
+        
+    
+        
+        
+        
+          
+        
+    
+        
+        
+        
+          
+        
+    
+        
+        
+        
+          
+        
+    
+        
+        
+        
+          
+        
+    
+        
+        
+        
+          
+        
+    
+        
+        
+        
+          
+        
+    
+        
+        
+        
+          
+        
+    
+        
+        
+        
+          
+        
+    
+        
+        
+        
+          
+        
+    
+        
+        
+        
+          
+        
+    
+        
+        
+        
+          
+        
+    
+        
+        
+        
+          
+        
+    
+        
+        
+        
+          
+        
+    
+        
+        
+        
+          
+        
+    
+        
+        
+        
+          
+        
+    
+        
+        
+        
+          
+        
+    
+        
+        
+        
+          
+        
+    
+        
+        
+        
+          
+        
+    
+        
+        
+        
+          
+        
+    
+        
+        
+        
+          
           
     
     
@@ -110,16 +228,16 @@
 
     <div class="tags-container-wrapper">
         <div class="year-container">
-          <div class="tags-item">2024</div>
-          <div class="tags-item">interactive installation</div>
+          <div class="tags-item">2007</div>
+          <div class="tags-item">Generative video installation</div>
         </div>
       
   <div class="tags-container">
     
     <ul>
-        <li class="tags-item"><a href="/tags/interactive/">Interactive</a></li>
-        <li class="tags-item"><a href="/tags/generative/">Generative</a></li>
-        <li class="tags-item"><a href="/tags/time-based/">Time-Based</a></li>
+        <li class="tags-item"><a href="/tags/realtime/">Realtime</a></li>
+        <li class="tags-item"><a href="/tags/video/">Video</a></li>
+        <li class="tags-item"><a href="/tags/installation/">Installation</a></li>
     </ul>
   </div>
 
@@ -127,30 +245,63 @@
       
       
           
-            <img class="hero" src="/projects/blogreader/images/05.jpg">
-          
+
+<div id="carousel" class="carousel" duration="7000">
+    <ul>
+        <li id="c_slide1" 
+        style="min-width: calc(100%/1); 
+                padding-bottom: 70%;">
+                <img src="images/01.jpg" alt="" /><div>
+                  
+            </div>
+        </li>
+        <li id="c_slide2" 
+        style="min-width: calc(100%/1); 
+                padding-bottom: 70%;">
+                <img src="images/splash.jpg" alt="" /><div>
+                  
+            </div>
+        </li>
+    </ul>
+    <ol>
+        <li><a href="#c_slide1"></a></li>
+        <li><a href="#c_slide2"></a></li>
+    </ol>
+    <div class="prev">&lsaquo;</div>
+    <div class="next">&rsaquo;</div>
+</div>
+
       
   
     <div class="description_container">
-        <p>Blogreader is network-driven dynamic video installation.This computer-based installation presents a continually updating and changing delivery of texts by extracting and ‘reading’ the latest postings from various teenage blog sites. There is a finite database of 3800 recorded words comprising the figure’s repertoire and when no matching word is found in the database, the stream of words gets broken by a brief moment of silence in which the figure disappears from the screen while the word in question is displayed on the opposite end of the snowscape.</p>
+        <p>Blogreader is network-driven generative video installation. It presents a continually updating and changing delivery of texts by extracting and ‘reading’ the latest postings from various teenage blog sites. There is a finite database of 3800 recorded words comprising the figure’s repertoire and when no matching word is found in the database, the stream of words gets broken by a brief moment of silence in which the figure disappears from the screen while the word in question is displayed on the opposite end of the snowscape.</p>
 <p>The seated figure(that of the artist herself) mechanically reads each word and element of punctuation out loud. The figure blindly performs the role of a person lost in vast virtual landscape imbued with the anxieties of those at the threshold of adulthood.</p>
+
+      <div
+          style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+        <iframe
+          src="https://player.vimeo.com/video/9253603?dnt=0"
+            style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allow="fullscreen">
+        </iframe>
+      </div>
+
 
     </div>
     <div class="project-nav-bottom">
       <div class="project-nav-item">
-        <a href="/projects/blogreader/"> &#8592; Previous </a>
+        <a href="/projects/gettingfitwbruce/"> &#8592; Previous </a>
       </div>
       <div class="project-nav-item">
-        <a href="/projects/conversations/"> Next &#8594; </a>
+        <a href="/projects/stevenjared/"> Next &#8594; </a>
       </div>
     </div>
   </div> 
   <div class="project-nav">
     <div class="project-nav-item">
-      <a href="/projects/blogreader/"> &#8593; </a>
+      <a href="/projects/gettingfitwbruce/"> &#8593; </a>
     </div>
     <div class="project-nav-item">
-      <a href="/projects/conversations/"> &#8595;</a>
+      <a href="/projects/stevenjared/"> &#8595;</a>
     </div>
   </div>
   
@@ -174,89 +325,92 @@
   <script src="/js/modernizr.js"></script>
   <script src="/js/jquery-3.7.1.min.js"></script>
   <script src="/js/jquery-easing-1.4.1.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-color/2.1.2/jquery.color.min.js" integrity="sha512-VjRpiWhUqdNa9bwBV7LnlG8CwsCVPenFyOQTSRTOGHw/tjtME96zthh0Vv9Itf3i8w4CkUrdYaS6+dAt1m1YXQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-color/2.1.2/jquery.color.min.js"
+    integrity="sha512-VjRpiWhUqdNa9bwBV7LnlG8CwsCVPenFyOQTSRTOGHw/tjtME96zthh0Vv9Itf3i8w4CkUrdYaS6+dAt1m1YXQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
   <script src="/js/script.js"></script>
   <script type="text/javascript" src="/js/carousel.js"></script>
   <link rel="stylesheet" href="/css/carousel.css">
   <script>
 
+    
+    
+    
+    
+    
+    
+    var $prevColor;
 
+    if (localStorage.getItem("prevColor")) {
+      $prevColor = localStorage.getItem("prevColor");
+    } else {
+      $prevColor = 'rgba(0 0 0 / 1)';
+    }
 
+    const colorChoices = [
+      'rgba(224 0 0 / 1)',
+      'rgba(140 0 255 / 1)',
+      'rgba(0 0 255 / 1) ',
+      'rgba(214 61 0 / 1)',
+      'rgba(0 133 77 / 1)',
+      'rgba(19 126 131 / 1)',
+      'rgba(202 22 124 / 1)'
+    ];
 
+    const transparency = [
+      '/ 1)',
+      '/ 0.5)',
+      '/ 0.33)',
+      '/ 0.25)',
+      '/ 0.1)'
+    ]
+    function changeColorTo(destColor, animate) {
 
+      const root = document.documentElement;
+      const destColorString = destColor.split('/')[0];
+      const colorHeaderChoice = destColorString;
+      const color100 = colorHeaderChoice + transparency[0];
+      const color50 = colorHeaderChoice + transparency[1];
+      const color33 = colorHeaderChoice + transparency[2];
+      const color25 = colorHeaderChoice + transparency[3];
+      const color10 = colorHeaderChoice + transparency[4];
+      if (animate) {
+        $("body").animate({
+          color: color100
+        }, 1000);
+      } else {
+        
 
+        root.style.setProperty('--color--foreground--100', color100);
+        root.style.setProperty('--color--foreground--50', color50);
+        root.style.setProperty('--color--foreground--33', color33);
+        root.style.setProperty('--color--foreground--25', color25);
+        root.style.setProperty('--color--foreground--10', color10);
+      }
+    }
 
-var $prevColor;
+    function changeColorFromTo() {
+      
+      
+      
 
-if(localStorage.getItem("prevColor")){
-  $prevColor = localStorage.getItem("prevColor");
-} else {
-  $prevColor = 'rgba(0 0 0 / 1)';
-}
+      const colorChoice = newRandomColor();
+      changeColorTo(colorChoice, false);
+      
 
-const colorChoices = [
-  'rgba(224 0 0 / 1)',
-  'rgba(140 0 255 / 1)',
-  'rgba(0 0 255 / 1) ',
-  'rgba(214 61 0 / 1)',
-  'rgba(0 133 77 / 1)',
-  'rgba(19 126 131 / 1)',
-  'rgba(202 22 124 / 1)'
-];
+      console.log("Setting the prevColor in the localStorage to: " + colorChoice);
+      localStorage.setItem("prevColor", colorChoice);
+    }
 
-const transparency = [
-  '/ 1)',
-  '/ 0.5)',
-  '/ 0.33)',
-  '/ 0.25)',
-  '/ 0.1)'
-]
-function changeColorTo(destColor, animate){
-  
-  const root = document.documentElement;
-  const destColorString = destColor.split('/')[0];
-  const colorHeaderChoice = destColorString;
-  const color100 = colorHeaderChoice + transparency[0];
-  const color50 = colorHeaderChoice + transparency[1];
-  const color33 = colorHeaderChoice + transparency[2];
-  const color25 = colorHeaderChoice + transparency[3];
-  const color10 = colorHeaderChoice + transparency[4];
-  if(animate){
-    $( "body" ).animate({
-      color: color100
-    }, 1000);
-  } else {
-  
-  
-  root.style.setProperty('--color--foreground--100', color100);
-  root.style.setProperty('--color--foreground--50', color50);
-  root.style.setProperty('--color--foreground--33', color33);
-  root.style.setProperty('--color--foreground--25', color25);
-  root.style.setProperty('--color--foreground--10', color10);
-  }
-}
+    function newRandomColor() {
+      do {
+        newColor = colorChoices[Math.floor(Math.random() * colorChoices.length)];
+      }
+      while (newColor == $prevColor);
 
-function changeColorFromTo(){
-  
-  
-  
-  
-  const colorChoice = newRandomColor();
-  changeColorTo(colorChoice, false);
-  
-  
-  console.log("Setting the prevColor in the localStorage to: " + colorChoice);
-  localStorage.setItem("prevColor", colorChoice);
-}
-
-function newRandomColor() {
-  do {
-    newColor = colorChoices[Math.floor(Math.random()* colorChoices.length)];
-  }
-  while (newColor == $prevColor);
-  
-  return newColor;
-}
+      return newColor;
+    }
   </script>
 </body>
+
 </html>

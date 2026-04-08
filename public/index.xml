@@ -1,54 +1,173 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Projects on Bang Geul Han Portfolio</title>
+    <title>Home on Bang Geul Han Portfolio</title>
     <link>http://localhost:1313/</link>
-    <description>Recent content in Projects on Bang Geul Han Portfolio</description>
+    <description>Recent content in Home on Bang Geul Han Portfolio</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 15 Apr 2024 11:00:00 -0700</lastBuildDate>
+    <lastBuildDate>Wed, 01 Apr 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Blogreader</title>
-      <link>http://localhost:1313/projects/blogreader/</link>
-      <pubDate>Mon, 15 Apr 2024 11:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/projects/blogreader/</guid>
-      <description>&lt;p&gt;Blogreader is network-driven dynamic video installation.This computer-based installation presents a continually updating and changing delivery of texts by extracting and ‘reading’ the latest postings from various teenage blog sites. There is a finite database of 3800 recorded words comprising the figure’s repertoire and when no matching word is found in the database, the stream of words gets broken by a brief moment of silence in which the figure disappears from the screen while the word in question is displayed on the opposite end of the snowscape.&lt;/p&gt;</description>
+      <title>The Conference Room (wip)</title>
+      <link>http://localhost:1313/projects/gunsnroses/</link>
+      <pubDate>Wed, 01 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/gunsnroses/</guid>
+      <description>&lt;p&gt;The Conference Room (Warp &amp;amp; Weft VI) presents a room divided by a large curtain draped from ceiling to floor and wall to wall. This curtain is composed of a thick, dense tapestry, made from weaving together the shredded paper printouts of federal court opinions and state codes concerning abortion and gun ownership. Viewers can freely open or close the curtain. This ‘conference room’ will occasionally be ‘activated’ and used as the site of live panel discussions. Invited legal scholars will discuss the parallel arguments between gun ownership and abortion. Although the invited guest speakers would all agree on the right to abortion, the arguments and theories underpinning this agreement will come from differing standpoints that are, at times, philosophically at odds with each other. The curtains will be drawn open during the panel discussion, signifying the open session for a debate.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Conversations</title>
-      <link>http://localhost:1313/projects/conversations/</link>
-      <pubDate>Mon, 15 Apr 2024 11:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/projects/conversations/</guid>
-      <description>&lt;!-- raw HTML omitted --&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;p&gt;Occaecat aliqua consequat laborum ut ex aute aliqua culpa quis irure esse magna dolore quis. Proident fugiat labore eu laboris&lt;/p&gt;</description>
+      <title>FLORA (wip)</title>
+      <link>http://localhost:1313/projects/flora/</link>
+      <pubDate>Thu, 01 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/flora/</guid>
+      <description>&lt;p&gt;FLORA (Feminist Ledger of Reproductive Access) is a decorative tablecloth patterned with flowers and plants historically used in reproductive health, both as contraceptives and abortifacients. Along its edges, hundreds of hand-embroidered LEDs form a flexible display that presents continuously updated, current legislative data on reproductive rights, with the scrolling text distorted by the fabric’s draping folds.&lt;/p&gt;&#xA;&lt;p&gt;R&amp;amp;D by Craftwork Collective&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Alphabits</title>
+      <link>http://localhost:1313/projects/alphabits/</link>
+      <pubDate>Sun, 14 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/alphabits/</guid>
+      <description>&lt;p&gt;Generative realtime animation system that can fluidly generate Korean and English alphabets, transforming back and forth into each other.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Two Hearts</title>
+      <link>http://localhost:1313/projects/twohearts/</link>
+      <pubDate>Sun, 14 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/twohearts/</guid>
+      <description>&lt;div&#xA;          style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;&#xA;        &lt;iframe&#xA;          src=&#34;https://player.vimeo.com/video/1180832655?dnt=0&#34;&#xA;            style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allow=&#34;fullscreen&#34;&gt;&#xA;        &lt;/iframe&gt;&#xA;      &lt;/div&gt;&#xA;&#xA;&lt;p&gt;Two Hearts interlaces poems by Emily Dickinson with those of Kim Myung Soon—a tragic, pioneering figure in Korean literature whose longing and unwavering conviction in art resonate across time and space. The accompanying music by composer Yoon-Ji Lee similarly weaves together cultural hybrids and contradictions: a fretless guitar performs Gayageum Sanjo in the style of Sung Geum-yeon, while an accordion plays Women&amp;rsquo;s Life, the 1968 South Korean megahit sung by Lee Mi-ja about women’s suffering and perseverance.&lt;/p&gt;</description>
     </item>
     <item>
       <title>About Me</title>
       <link>http://localhost:1313/about/</link>
       <pubDate>Sun, 01 Jan 2023 08:00:00 -0700</pubDate>
       <guid>http://localhost:1313/about/</guid>
-      <description>&lt;p&gt;Born and raised in Seoul, Korea, in 1978 and based in the US since 2003, Bang Geul Han’s work has been shown in venues including The Bronx Museum of the Arts, Queens Museum, NURTUREart, A.I.R. Gallery, The 8th Floor at The Shelley and Donald Rubin Foundation, Smack Mellon in New York City, and Centro Internazionale per l’Arte Contemporanea in Rome. She is a recipient of a number of artist residencies and fellowships, including Creative Capital Award, Artist in the Marketplace program at the Bronx Museum of the Arts, Lower Manhattan Cultural Council’s Workspace program, A.I.R. Fellowship, MacDowell Fellowship, Skowhegan School of Painting and Sculpture, and Center for Emerging Visual Artists in Philadelphia, PA.&lt;/p&gt;</description>
+      <description>&lt;p&gt;Born and raised in Seoul, Korea, in 1978 and based in the US since 2003, Bang Geul Han’s work has been shown in venues including The Bronx Museum of the Arts, Queens Museum, NURTUREart, A.I.R. Gallery, The 8th Floor at The Shelley and Donald Rubin Foundation, Smack Mellon in New York City, and Centro Internazionale per l’Arte Contemporanea in Rome. She is a recipient of a number of artist residencies and fellowships, including Guggenheim Fellowship, Creative Capital Award, Artist in the Marketplace program at the Bronx Museum of the Arts, Lower Manhattan Cultural Council’s Workspace program, A.I.R. Fellowship, MacDowell Fellowship, Skowhegan School of Painting and Sculpture, and Center for Emerging Visual Artists in Philadelphia, PA.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Warp and Weft 1 - 4</title>
+      <title>Bamboo Forest</title>
+      <link>http://localhost:1313/projects/bambooforest/</link>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/bambooforest/</guid>
+      <description>&lt;p&gt;In Bamboo Forest, the letters comprising Henry J. Hyde’s remarks at the 1993 congressional debate, which unwittingly revealed the intersections of women’s reproductive rights with blatant class discrimination. These letters continually disassemble and reassemble to form a series of short texts featuring premodern superstitious beliefs and recipes for contraception and abortion, collected from historical and scholarly texts.&lt;/p&gt;&#xA;&lt;p&gt;The letters are constantly swept around the screen as if trapped in a windy forest that can’t help but echo and disclose these secrets, despite systemic and historical suppression of such knowledge.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Ø</title>
+      <link>http://localhost:1313/projects/island/</link>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/island/</guid>
+      <description>&lt;p&gt;This virtual reality artwork lets viewers walk around a landscape dotted with birdcages. Within this environment, hundreds of alphabetical letters flock and fly through the air. As they fly near the viewer, the sounds of the phonemes corresponding to each letter become audible. When approaching a specific birdcage, some of the letters begin to cluster, forming a paragraph. Each paragraph features sworn declarations made by migrant children detained and separated from their parents or guardians, outlining their treatment and experiences. These declarations were filed as part of the class action lawsuit Flores v Barr, which contested child separation and detention practices under the Trump administration. In all, the work excerpts around 700 stories from over 200 declarations, functioning as an immersive public archive for the stories of these migrant children.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Terre de Tendre (Intro)</title>
+      <link>http://localhost:1313/projects/terredetendre/</link>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/terredetendre/</guid>
+      <description>&lt;p&gt;Terre de Tendre is a video game world inspired by a 17th-century French map. Originally conceived by a group of women to depict a female protagonist’s treacherous journey toward true love, this imagined terrain is reconfigured here as a landscape in which a migrant child who is also the shack that shelters them, searches for a place to call home. This VR artwork serves as an introduction to that world: the viewer first encounters the character Alma, and then embarks on a boat ride inspired by Korean theme-park attractions, reminiscent of It&amp;rsquo;s a Small World.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Threshold</title>
+      <link>http://localhost:1313/projects/threshold/</link>
+      <pubDate>Fri, 01 Jul 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/threshold/</guid>
+      <description>&lt;p&gt;The sculpture references a traditional Korean Hanok, with its raised curving threshold that carries the symbolic meaning of delineating domestic and public spaces, as well as the male and female quarters within a house, and even life and death. The LED signage embedded in the threshold displays continuously scrolling text from a leaked US government spreadsheet from 2017- 2019 (source: American Bridge), with detailed notes of undocumented pregnant minors in their custody, including how far along they were in their pregnancy and whether they wanted an abortion. This was reportedly used to identify and discourage the minors from having an abortion.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>talk me tender</title>
+      <link>http://localhost:1313/projects/talkmetender/</link>
+      <pubDate>Wed, 01 Jun 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/talkmetender/</guid>
+      <description>&lt;p&gt;Developed in collaboration with London-based artist Minna Pöllänen. Trained on texts concerning themes of care and mortality by both feminist scholars and sources from popular culture, the chatbot provides a counterpoint to the exhibition’s probing of biopolitical frameworks, by looking at vulnerability and difference as sites of care and possibility rather than exploitation and subjugation.&lt;/p&gt;&#xA;&lt;p&gt;This work was made possible by Together Alone 2.0 commission by the Finnish Academic and Cultural Institute of UK/Ireland.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Texas Chainsaw Massacre</title>
+      <link>http://localhost:1313/projects/texaschainsaw/</link>
+      <pubDate>Wed, 01 Jun 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/texaschainsaw/</guid>
+      <description>&lt;p&gt;Texas Chainsaw Massacre presents two seemingly unrelated men recounting their memories. On one screen, a Caucasian man with a British accent recounts the 1974 film The Texas Chain Saw Massacre entirely from memory; on the other screen is the full footage of Brett Kavanaugh’s opening statement addressing sexual assault allegations during his Supreme Court confirmation hearings. A custom program replaces their spoken words with text slides accompanied by so-called elevator music. On the right, the text slides are punctuated by moments of silence from the proceedings, as Kavanaugh pauses, catches his breath, or composes himself between words. The work cuts between the two channels like a broken clock, producing intermittent moments of connection and disconnection. Through this algorithmic editing, both Kavanaugh’s voice and the film’s smug violence are muted, while their underlying structures of power, performance, and memory are brought into sharper relief.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Warp &amp; Weft (I-V)</title>
       <link>http://localhost:1313/projects/warpweft/</link>
-      <pubDate>Wed, 31 Dec 1969 19:33:44 -0500</pubDate>
+      <pubDate>Wed, 01 Jun 2022 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/projects/warpweft/</guid>
       <description>&lt;p&gt;Warp and Weft is an ongoing project involving a series of hand-woven tapestries constructed from paper printouts of legal documents (from state codes concerning abortion, and anti-immigration memoranda to Supreme Court opinions from the last decade, which have steadily gutted the Voting Rights Act of 1965.) Accompanying the tapestry is a photographic series in which I sleep, meditate, read and poop while wearing the fabric in various ways.&lt;/p&gt;</description>
     </item>
     <item>
+      <title>Apology Bracelets (Harvey)</title>
+      <link>http://localhost:1313/projects/apologybracelets/</link>
+      <pubDate>Tue, 01 Mar 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/apologybracelets/</guid>
+      <description>&lt;p&gt;Woven across these 118 friendship bracelets are Harvey Weinstein’s words of apology, the work alludes to the importance of conversations, or information sharing between women. The obsessive nature of the knotting in these bracelets functions as a testament to the event, but also places the trauma at a remove, through making them as a therapeutic act.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Paradise</title>
+      <link>http://localhost:1313/projects/paradise/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/paradise/</guid>
+      <description>&lt;p&gt;A gentle female voice emanates from a commercially available fake rock designed to conceal garden fixtures. Relying upon custom software and a micro-controller hidden inside the rock, the voice reads aloud the over twenty thousand names of US-based financial officers revealed in the Paradise Papers, one after the other, with the voice quietly chuckling and moaning in between the names.&lt;/p&gt;&#xA;&#xA;      &lt;div&#xA;          style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;&#xA;        &lt;iframe&#xA;          src=&#34;https://player.vimeo.com/video/558316342?dnt=0&#34;&#xA;            style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allow=&#34;fullscreen&#34;&gt;&#xA;        &lt;/iframe&gt;&#xA;      &lt;/div&gt;</description>
+    </item>
+    <item>
+      <title>Dear Tomas</title>
+      <link>http://localhost:1313/projects/deartomas/</link>
+      <pubDate>Wed, 01 Aug 2018 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/deartomas/</guid>
+      <description>&lt;p&gt;Dear Tomas reworks a sequence from Ingmar Bergman’s 1963 film Winter Light (Swedish - Nattvardsgästerna). Exploring the complex interactions between experiences of complicity, vulnerability, revenge, love, and religion, the work presents an unfolding scene of a priest opening and reading a letter from his past lover, which is complicated by the separation of voice and subtitles and the inclusion of layered, collaged elements.&lt;/p&gt;&#xA;&#xA;      &lt;div&#xA;          style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;&#xA;        &lt;iframe&#xA;          src=&#34;https://player.vimeo.com/video/370214996?dnt=0&#34;&#xA;            style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allow=&#34;fullscreen&#34;&gt;&#xA;        &lt;/iframe&gt;&#xA;      &lt;/div&gt;</description>
+    </item>
+    <item>
+      <title>Through the Gaps Between my Teeth</title>
+      <link>http://localhost:1313/projects/throughthegaps/</link>
+      <pubDate>Wed, 01 Feb 2017 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/throughthegaps/</guid>
+      <description>&lt;p&gt;Through the Gaps Between My Teeth is a generative real-time animation in which alphabetical characters, swarming around the projected image, occasionally come together to form words and sentences, oscillating between the transcript of President Trump’s Access Hollywood tape and first-person accounts of sexual assault publicly posted on Twitter. The deliberate structural limitation of the custom software (the fact that every Twitter message has to be reconstructed using only the letters provided by DJT’s remarks) leaves imperfections in the text alluding to the structural limitations involved in speaking out about such subject matter.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Steven and Jared</title>
+      <link>http://localhost:1313/projects/signsofflood/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/signsofflood/</guid>
+      <description>&lt;div&#xA;          style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;&#xA;        &lt;iframe&#xA;          src=&#34;https://player.vimeo.com/video/1140932064?dnt=0&#34;&#xA;            style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allow=&#34;fullscreen&#34;&gt;&#xA;        &lt;/iframe&gt;&#xA;      &lt;/div&gt;&#xA;&#xA;&lt;p&gt;Made in collaboration with artist Minna Pollanen, Signs of Flood is an installation combining new media and handstitched embroidery that explores the connotations of the word “flood.” The work shifts between an international vantage point, where abstract and decontextualized media representations are propagated widely, and a far more local, imminent level, where the imagery impacts individual bodies and communities.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Referential Gaze</title>
+      <link>http://localhost:1313/projects/referentialgaze/</link>
+      <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/referentialgaze/</guid>
+      <description>&lt;p&gt;Using various early facial expression detection services available online, the work ponders the implications of quantification of everything. The original facial features digitally removed and smoothed out are replaced by somewhat cryptic and numerical results of the analysis returned by these software applications. The results are cut out using a die cutter and glued on top of the face. The work blends the materiality of data and image and the information becomes more ambiguous and mysterious than the actual faces.&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Baguette Hell</title>
       <link>http://localhost:1313/projects/baguettehell/</link>
-      <pubDate>Wed, 31 Dec 1969 19:33:43 -0500</pubDate>
+      <pubDate>Fri, 01 Jun 2012 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/projects/baguettehell/</guid>
       <description>&lt;p&gt;Playing on the word “bagatelle” (meaning a trifling or inconsequential thing), Baguette Hell features a series of interactive iPad and iPhone apps toying with images of its namesake French bread. Reminiscent of Dadaist exercises, the apps are seemingly impractical or pointless, but are also playful, flirtatious and delightfully strange.&lt;/p&gt;&#xA;&lt;p&gt;Baguette about it, Baguettedipus, Baguette Me Not, Baguette Vision, Whack a Baguette, Spin the Baguette, Baguette A Time, Baguette Clock,Soggy Baguette,Baguette List, Baguettopus, Baguette Stop&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Soft Display Project</title>
-      <link>http://localhost:1313/projects/soft_display/</link>
-      <pubDate>Wed, 31 Dec 1969 19:33:43 -0500</pubDate>
-      <guid>http://localhost:1313/projects/soft_display/</guid>
-      <description>&lt;p&gt;Occaecat aliqua consequat laborum ut ex aute aliqua culpa quis irure esse magna dolore quis. Proident fugiat labore eu laboris&lt;/p&gt;</description>
+      <title>Conversations</title>
+      <link>http://localhost:1313/projects/conversations/</link>
+      <pubDate>Fri, 01 Jun 2012 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/conversations/</guid>
+      <description>&lt;p&gt;Despite underlying themes of love and yearning, as the oddly disjointed conversation meanders and bifurcates, it becomes apparent that there is more at work than a simple video playback. Combing the constant stream of public messages on Twitter for select words including “love”, “desire”, and “donut”, the custom-coded software behind this computer-based video installation translates these real-time, text-based “tweets” into the verbalized utterances of the couple. Through robotic sequences of articulated words and subtle body gestures, the work becomes a voyeuristic and hypnotic theater of fragmented yet very human attempts and failures at communicating thoughts and desires.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Getting Fit with Bruce</title>
+      <link>http://localhost:1313/projects/gettingfitwbruce/</link>
+      <pubDate>Sat, 01 Jan 2011 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/gettingfitwbruce/</guid>
+      <description>&lt;div&#xA;          style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;&#xA;        &lt;iframe&#xA;          src=&#34;https://player.vimeo.com/video/26277113?dnt=0&#34;&#xA;            style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allow=&#34;fullscreen&#34;&gt;&#xA;        &lt;/iframe&gt;&#xA;      &lt;/div&gt;&#xA;&#xA;&lt;p&gt;In this video, the artist reenacts the seminal 60’s video performance pieces by Bruce Nauman with the intention of loosing weight. The video questions the process of art production, specifically the enduring ‘mythology’ around originality and its associated value while the texts with apparent marked corrections give the artist’s process of rather insecure and shallow decision-makings a material form.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Blogreader</title>
+      <link>http://localhost:1313/projects/blogreader/</link>
+      <pubDate>Mon, 01 Jan 2007 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/blogreader/</guid>
+      <description>&lt;p&gt;Blogreader is network-driven generative video installation. It presents a continually updating and changing delivery of texts by extracting and ‘reading’ the latest postings from various teenage blog sites. There is a finite database of 3800 recorded words comprising the figure’s repertoire and when no matching word is found in the database, the stream of words gets broken by a brief moment of silence in which the figure disappears from the screen while the word in question is displayed on the opposite end of the snowscape.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Steven and Jared</title>
+      <link>http://localhost:1313/projects/stevenjared/</link>
+      <pubDate>Sun, 01 May 2005 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/stevenjared/</guid>
+      <description>&lt;p&gt;In “Steven and Jared”, viewers are presented with two speakers hanging from a ceiling in front of a large video projection of what could at first look like a swarm of bees meandering around the screen. Under closer inspection, these meandering elements turn out to be letters of the alphabet. If a person chooses to listen to one of the speakers, the patterns of movement starts to change, with the letters slowly settling and forming into words, sentences and eventually paragraphs. If the viewer then moves away from the speaker, the letters once again disband and take flight. Each time viewers come close to a speaker, eventually being able to hear what sounds like confessional, diaristic stories narrated by a young girl, the words would once again congregate but into new paragraphs and stories.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
