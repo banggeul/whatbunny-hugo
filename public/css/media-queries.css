@@ -95,8 +95,7 @@
 
   .app-nav {
     top: calc(var(--grid--app-xheight) - 99px);
-    left: 50%;
-
+    left: 70%;
   }
 
   .app-nav .content {
@@ -172,6 +171,11 @@
   .section .thumbnail_card .thumbnail_images>div:last-child {
     display: none;
   }
+
+    .carousel:fullscreen .prev,
+    .carousel:fullscreen .next {
+      display: none !important;
+    }
 }
 
 /* 2 columns */

@@ -3,7 +3,7 @@ title = 'Bamboo Forest'
 type= "projects"
 date = 2023-01-01
 draft = false
-tags = ['realtime','software','animation']
+tags = ['generative','software','animation','realtime']
 [params]
     year = 2023
     medium = "Generative realtime animation"

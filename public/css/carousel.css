@@ -72,10 +72,15 @@
     border: 2px solid white;
     background: transparent;
     border-radius: 100%;
+
 }
 
 .carousel ol li.selected a {
     background: white;
+}
+
+.app-main .carousel ol li a:hover{
+    border-bottom: none;
 }
 
 .carousel .prev,
@@ -98,3 +103,125 @@
     left: auto;
     right: 0;
 }
+
+.carousel .fullscreen-toggle {
+    position: absolute;
+    top: 0.75rem;
+    right: 0.75rem;
+    z-index: 20;
+    border: 0;
+    border-radius: 999px;
+    width: 2.5rem;
+    height: 2.5rem;
+    cursor: pointer;
+    font-size: 1.1rem;
+    line-height: 1;
+    background: rgba(0, 0, 0, 0.3);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.carousel .fullscreen-toggle:hover {
+    background: rgba(0, 0, 0, 0.5);
+}
+.carousel:fullscreen {
+    width: 100vw;
+    height: 100vh;
+    background: black;
+    padding: 0;
+    margin: 0;
+    position: relative;
+}
+
+.carousel:fullscreen ul {
+    height: 100vh;
+    overflow-x: auto;
+    overflow-y: hidden;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+}
+
+.carousel:fullscreen li {
+    min-width: 100vw !important;
+    height: 100vh;
+    padding-bottom: 0 !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.carousel:fullscreen img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain; 
+}
+
+.carousel:fullscreen .prev,
+.carousel:fullscreen .next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 40;
+    width: 3rem;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.2);
+    color: white;
+    border-radius: 999px;
+    cursor: pointer;
+    user-select: none;
+}
+
+.carousel:fullscreen .prev {
+    left: 1rem;
+}
+
+.carousel:fullscreen .next {
+    right: 1rem;
+}
+
+.carousel:fullscreen .next p, .carousel:fullscreen .prev p {
+    font-size: 30px;
+    font-weight: lighter;
+    line-height: 0;
+    width: fit-content;
+    height: fit-content;
+    position: absolute;
+    top: -13%;
+    left: 35%;
+    transform: translateY(-50%);
+}
+
+.carousel:fullscreen ol {
+    position: absolute;
+    left: 50%;
+    bottom: 1.25rem;
+    transform: translateX(-50%);
+    z-index: 40;
+    display: flex;
+    gap: 0.5rem;
+    margin: 0;
+    padding: 0.5rem 0.75rem;
+    list-style: none;
+    background: rgba(0, 0, 0, 0.1);
+    border-radius: 999px;
+}
+
+.carousel:fullscreen ol li {
+    min-width: auto !important;
+    height: auto !important;
+    padding-bottom: 0 !important;
+    display: block;
+}
+
+.carousel:fullscreen ol a {
+    display: block;
+    width: 0.65rem;
+    height: 0.65rem;
+    border-radius: 999px;
+    background: rgba(255, 255, 255, 0.7); }
+

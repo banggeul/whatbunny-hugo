@@ -31,16 +31,19 @@
 <section class="landing">
   <div class="landing-bg" id="landing-bg">
     <div class="landing-overlay">
-      <a class="landing-button" href="/projects/">Enter</a>
-      <a class="landing-secondary" id="landing-button" href="#">
-        <span id="landing-title">Project</span>
-        <br />
-        <!-- <span>(</span>
-        <span id="landing-date">Date</span>
-        <span>)</span> -->
-        <span id="landing-medium" style="font-size: smaller;">Medium</span>
-      </a>
+      <div class="landing-box">
+        <a class="landing-button landing-name" href="/about/">Bang Geul Han</a>
+        <a class="landing-button" href="/projects/">Enter</a>
+      </div>
     </div>
+    <a class="landing-secondary" id="landing-button" href="#">
+      <span id="landing-title">Project</span>
+      <br />
+      <!-- <span>(</span>
+          <span id="landing-date">Date</span>
+          <span>)</span> -->
+      <span id="landing-medium" style="font-size: smaller;">Medium</span>
+    </a>
 
     <div id="landing-data" style="display:none;">
       {{ range $entries }}

@@ -6,6 +6,9 @@
 {{- $data := .data}}
 
 <div id="carousel{{ .Ordinal }}" class="carousel" duration="{{$duration }}">
+  <button class="fullscreen-toggle" type="button" aria-label="View fullscreen">
+    ⛶
+  </button>
     <ul>
       {{- range $index, $slide := $page.Resources.Match (print ($data) "/*") }}
         <li id="c{{ $.Ordinal }}_slide{{ add $index 1}}" 
@@ -22,6 +25,6 @@
         <li><a href="#c{{ $.Ordinal }}_slide{{ add $index 1 }}"></a></li>
       {{- end }}
     </ol>
-    <div class="prev">&lsaquo;</div>
-    <div class="next">&rsaquo;</div>
+    <div class="prev"><p>&lsaquo;</p></div>
+    <div class="next"><p>&rsaquo;</p></div>
 </div>

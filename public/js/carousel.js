@@ -8,7 +8,8 @@ document.addEventListener('DOMContentLoaded', function() {
       const bullets = carousel.querySelectorAll('ol li');
       const slides = carousel.querySelectorAll('ul li');
       const nextarrow = carousel.querySelector('.next');
-      const prevarrow = carousel.querySelector('.prev');
+    const prevarrow = carousel.querySelector('.prev');
+    const fullscreenBtn = carousel.querySelector('.fullscreen-toggle');
 
       // Initialize the carousel
       nextarrow.style.display = 'block';
@@ -94,6 +95,31 @@ document.addEventListener('DOMContentLoaded', function() {
             nextarrow.click();
           }
         }, carousel.getAttribute('duration'));
+      }
+    
+    const toggleFullscreen = async function () {
+      try {
+        if (!document.fullscreenElement) {
+          await carousel.requestFullscreen();
+        } else if (document.fullscreenElement === carousel) {
+          await document.exitFullscreen();
+        }
+      } catch (err) {
+        console.error('Fullscreen failed:', err);
+      }
+    };
+
+    if (fullscreenBtn) {
+      fullscreenBtn.addEventListener('click', function (e) {
+        e.preventDefault();
+        e.stopPropagation();
+        toggleFullscreen();
+        console.log("fullscreen")
+      });
+
+      fullscreenBtn.addEventListener('touchstart', function (e) {
+        e.stopPropagation();
+      });
       }
     
     
