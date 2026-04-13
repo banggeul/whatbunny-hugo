@@ -2,38 +2,38 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Interactive on Bang Geul Han Portfolio</title>
-    <link>https://www.whatbunny.org/tags/interactive/</link>
+    <link>http://localhost:1313/tags/interactive/</link>
     <description>Recent content in Interactive on Bang Geul Han Portfolio</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 01 Jan 2023 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://www.whatbunny.org/tags/interactive/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/interactive/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Ø</title>
-      <link>https://www.whatbunny.org/projects/island/</link>
+      <link>http://localhost:1313/projects/island/</link>
       <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>https://www.whatbunny.org/projects/island/</guid>
+      <guid>http://localhost:1313/projects/island/</guid>
       <description>&lt;p&gt;This virtual reality artwork lets viewers walk around a landscape dotted with birdcages. Within this environment, hundreds of alphabetical letters flock and fly through the air. As they fly near the viewer, the sounds of the phonemes corresponding to each letter become audible. When approaching a specific birdcage, some of the letters begin to cluster, forming a paragraph. Each paragraph features sworn declarations made by migrant children detained and separated from their parents or guardians, outlining their treatment and experiences. These declarations were filed as part of the class action lawsuit Flores v Barr, which contested child separation and detention practices under the Trump administration. In all, the work excerpts around 700 stories from over 200 declarations, functioning as an immersive public archive for the stories of these migrant children.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Terre de Tendre (Intro)</title>
-      <link>https://www.whatbunny.org/projects/terredetendre/</link>
+      <link>http://localhost:1313/projects/terredetendre/</link>
       <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>https://www.whatbunny.org/projects/terredetendre/</guid>
+      <guid>http://localhost:1313/projects/terredetendre/</guid>
       <description>&lt;p&gt;Terre de Tendre is a video game world inspired by a 17th-century French map. Originally conceived by a group of women to depict a female protagonist’s treacherous journey toward true love, this imagined terrain is reconfigured here as a landscape in which a migrant child who is also the shack that shelters them, searches for a place to call home. This VR artwork serves as an introduction to that world: the viewer first encounters the character Alma, and then embarks on a boat ride inspired by Korean theme-park attractions, reminiscent of It&amp;rsquo;s a Small World.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Baguette Hell</title>
-      <link>https://www.whatbunny.org/projects/baguettehell/</link>
+      <link>http://localhost:1313/projects/baguettehell/</link>
       <pubDate>Fri, 01 Jun 2012 00:00:00 +0000</pubDate>
-      <guid>https://www.whatbunny.org/projects/baguettehell/</guid>
+      <guid>http://localhost:1313/projects/baguettehell/</guid>
       <description>&lt;p&gt;Playing on the word “bagatelle” (meaning a trifling or inconsequential thing), Baguette Hell features a series of interactive iPad and iPhone apps toying with images of its namesake French bread. Reminiscent of Dadaist exercises, the apps are seemingly impractical or pointless, but are also playful, flirtatious and delightfully strange.&lt;/p&gt;&#xA;&lt;p&gt;Baguette about it, Baguettedipus, Baguette Me Not, Baguette Vision, Whack a Baguette, Spin the Baguette, Baguette A Time, Baguette Clock,Soggy Baguette,Baguette List, Baguettopus, Baguette Stop&lt;/p&gt;</description>
     </item>
     <item>
       <title>Steven and Jared</title>
-      <link>https://www.whatbunny.org/projects/stevenjared/</link>
+      <link>http://localhost:1313/projects/stevenjared/</link>
       <pubDate>Sun, 01 May 2005 00:00:00 +0000</pubDate>
-      <guid>https://www.whatbunny.org/projects/stevenjared/</guid>
+      <guid>http://localhost:1313/projects/stevenjared/</guid>
       <description>&lt;p&gt;In “Steven and Jared”, viewers are presented with two speakers hanging from a ceiling in front of a large video projection of what could at first look like a swarm of bees meandering around the screen. Under closer inspection, these meandering elements turn out to be letters of the alphabet. If a person chooses to listen to one of the speakers, the patterns of movement starts to change, with the letters slowly settling and forming into words, sentences and eventually paragraphs. If the viewer then moves away from the speaker, the letters once again disband and take flight. Each time viewers come close to a speaker, eventually being able to hear what sounds like confessional, diaristic stories narrated by a young girl, the words would once again congregate but into new paragraphs and stories.&lt;/p&gt;</description>
     </item>
   </channel>

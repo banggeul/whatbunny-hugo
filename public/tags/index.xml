@@ -2,178 +2,178 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Bang Geul Han Portfolio</title>
-    <link>https://www.whatbunny.org/tags/</link>
+    <link>http://localhost:1313/tags/</link>
     <description>Recent content in Tags on Bang Geul Han Portfolio</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 01 Apr 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://www.whatbunny.org/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Installation</title>
-      <link>https://www.whatbunny.org/tags/installation/</link>
+      <link>http://localhost:1313/tags/installation/</link>
       <pubDate>Wed, 01 Apr 2026 00:00:00 +0000</pubDate>
-      <guid>https://www.whatbunny.org/tags/installation/</guid>
+      <guid>http://localhost:1313/tags/installation/</guid>
       <description></description>
     </item>
     <item>
       <title>Paper</title>
-      <link>https://www.whatbunny.org/tags/paper/</link>
+      <link>http://localhost:1313/tags/paper/</link>
       <pubDate>Wed, 01 Apr 2026 00:00:00 +0000</pubDate>
-      <guid>https://www.whatbunny.org/tags/paper/</guid>
+      <guid>http://localhost:1313/tags/paper/</guid>
       <description></description>
     </item>
     <item>
       <title>Weaving</title>
-      <link>https://www.whatbunny.org/tags/weaving/</link>
+      <link>http://localhost:1313/tags/weaving/</link>
       <pubDate>Wed, 01 Apr 2026 00:00:00 +0000</pubDate>
-      <guid>https://www.whatbunny.org/tags/weaving/</guid>
+      <guid>http://localhost:1313/tags/weaving/</guid>
       <description></description>
     </item>
     <item>
       <title>Electronics</title>
-      <link>https://www.whatbunny.org/tags/electronics/</link>
+      <link>http://localhost:1313/tags/electronics/</link>
       <pubDate>Thu, 01 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>https://www.whatbunny.org/tags/electronics/</guid>
+      <guid>http://localhost:1313/tags/electronics/</guid>
       <description></description>
     </item>
     <item>
       <title>Embroidery</title>
-      <link>https://www.whatbunny.org/tags/embroidery/</link>
+      <link>http://localhost:1313/tags/embroidery/</link>
       <pubDate>Thu, 01 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>https://www.whatbunny.org/tags/embroidery/</guid>
+      <guid>http://localhost:1313/tags/embroidery/</guid>
       <description></description>
     </item>
     <item>
       <title>LEDs</title>
-      <link>https://www.whatbunny.org/tags/leds/</link>
+      <link>http://localhost:1313/tags/leds/</link>
       <pubDate>Thu, 01 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>https://www.whatbunny.org/tags/leds/</guid>
+      <guid>http://localhost:1313/tags/leds/</guid>
       <description></description>
     </item>
     <item>
       <title>Generative</title>
-      <link>https://www.whatbunny.org/tags/generative/</link>
+      <link>http://localhost:1313/tags/generative/</link>
       <pubDate>Sun, 14 Dec 2025 00:00:00 +0000</pubDate>
-      <guid>https://www.whatbunny.org/tags/generative/</guid>
+      <guid>http://localhost:1313/tags/generative/</guid>
       <description></description>
     </item>
     <item>
       <title>Kinetic Type</title>
-      <link>https://www.whatbunny.org/tags/kinetic-type/</link>
+      <link>http://localhost:1313/tags/kinetic-type/</link>
       <pubDate>Sun, 14 Dec 2025 00:00:00 +0000</pubDate>
-      <guid>https://www.whatbunny.org/tags/kinetic-type/</guid>
+      <guid>http://localhost:1313/tags/kinetic-type/</guid>
       <description></description>
     </item>
     <item>
       <title>Realtime</title>
-      <link>https://www.whatbunny.org/tags/realtime/</link>
+      <link>http://localhost:1313/tags/realtime/</link>
       <pubDate>Sun, 14 Dec 2025 00:00:00 +0000</pubDate>
-      <guid>https://www.whatbunny.org/tags/realtime/</guid>
+      <guid>http://localhost:1313/tags/realtime/</guid>
       <description></description>
     </item>
     <item>
       <title>Software</title>
-      <link>https://www.whatbunny.org/tags/software/</link>
+      <link>http://localhost:1313/tags/software/</link>
       <pubDate>Sun, 14 Dec 2025 00:00:00 +0000</pubDate>
-      <guid>https://www.whatbunny.org/tags/software/</guid>
+      <guid>http://localhost:1313/tags/software/</guid>
       <description></description>
     </item>
     <item>
       <title>Video</title>
-      <link>https://www.whatbunny.org/tags/video/</link>
+      <link>http://localhost:1313/tags/video/</link>
       <pubDate>Sun, 14 Dec 2025 00:00:00 +0000</pubDate>
-      <guid>https://www.whatbunny.org/tags/video/</guid>
+      <guid>http://localhost:1313/tags/video/</guid>
       <description></description>
     </item>
     <item>
       <title>Animation</title>
-      <link>https://www.whatbunny.org/tags/animation/</link>
+      <link>http://localhost:1313/tags/animation/</link>
       <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>https://www.whatbunny.org/tags/animation/</guid>
+      <guid>http://localhost:1313/tags/animation/</guid>
       <description></description>
     </item>
     <item>
       <title>Interactive</title>
-      <link>https://www.whatbunny.org/tags/interactive/</link>
+      <link>http://localhost:1313/tags/interactive/</link>
       <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>https://www.whatbunny.org/tags/interactive/</guid>
+      <guid>http://localhost:1313/tags/interactive/</guid>
       <description></description>
     </item>
     <item>
       <title>VR</title>
-      <link>https://www.whatbunny.org/tags/vr/</link>
+      <link>http://localhost:1313/tags/vr/</link>
       <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>https://www.whatbunny.org/tags/vr/</guid>
+      <guid>http://localhost:1313/tags/vr/</guid>
       <description></description>
     </item>
     <item>
       <title>Sculpture</title>
-      <link>https://www.whatbunny.org/tags/sculpture/</link>
+      <link>http://localhost:1313/tags/sculpture/</link>
       <pubDate>Fri, 01 Jul 2022 00:00:00 +0000</pubDate>
-      <guid>https://www.whatbunny.org/tags/sculpture/</guid>
+      <guid>http://localhost:1313/tags/sculpture/</guid>
       <description></description>
     </item>
     <item>
       <title>AI</title>
-      <link>https://www.whatbunny.org/tags/ai/</link>
+      <link>http://localhost:1313/tags/ai/</link>
       <pubDate>Wed, 01 Jun 2022 00:00:00 +0000</pubDate>
-      <guid>https://www.whatbunny.org/tags/ai/</guid>
+      <guid>http://localhost:1313/tags/ai/</guid>
       <description></description>
     </item>
     <item>
       <title>Multichannel</title>
-      <link>https://www.whatbunny.org/tags/multichannel/</link>
+      <link>http://localhost:1313/tags/multichannel/</link>
       <pubDate>Wed, 01 Jun 2022 00:00:00 +0000</pubDate>
-      <guid>https://www.whatbunny.org/tags/multichannel/</guid>
+      <guid>http://localhost:1313/tags/multichannel/</guid>
       <description></description>
     </item>
     <item>
       <title>Netart</title>
-      <link>https://www.whatbunny.org/tags/netart/</link>
+      <link>http://localhost:1313/tags/netart/</link>
       <pubDate>Wed, 01 Jun 2022 00:00:00 +0000</pubDate>
-      <guid>https://www.whatbunny.org/tags/netart/</guid>
+      <guid>http://localhost:1313/tags/netart/</guid>
       <description></description>
     </item>
     <item>
       <title>Macareme</title>
-      <link>https://www.whatbunny.org/tags/macareme/</link>
+      <link>http://localhost:1313/tags/macareme/</link>
       <pubDate>Tue, 01 Mar 2022 00:00:00 +0000</pubDate>
-      <guid>https://www.whatbunny.org/tags/macareme/</guid>
+      <guid>http://localhost:1313/tags/macareme/</guid>
       <description></description>
     </item>
     <item>
       <title>Sound</title>
-      <link>https://www.whatbunny.org/tags/sound/</link>
+      <link>http://localhost:1313/tags/sound/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>https://www.whatbunny.org/tags/sound/</guid>
+      <guid>http://localhost:1313/tags/sound/</guid>
       <description></description>
     </item>
     <item>
       <title>Collage</title>
-      <link>https://www.whatbunny.org/tags/collage/</link>
+      <link>http://localhost:1313/tags/collage/</link>
       <pubDate>Wed, 01 Aug 2018 00:00:00 +0000</pubDate>
-      <guid>https://www.whatbunny.org/tags/collage/</guid>
+      <guid>http://localhost:1313/tags/collage/</guid>
       <description></description>
     </item>
     <item>
       <title>Digital Print</title>
-      <link>https://www.whatbunny.org/tags/digital-print/</link>
+      <link>http://localhost:1313/tags/digital-print/</link>
       <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
-      <guid>https://www.whatbunny.org/tags/digital-print/</guid>
+      <guid>http://localhost:1313/tags/digital-print/</guid>
       <description></description>
     </item>
     <item>
       <title>Mobile App</title>
-      <link>https://www.whatbunny.org/tags/mobile-app/</link>
+      <link>http://localhost:1313/tags/mobile-app/</link>
       <pubDate>Fri, 01 Jun 2012 00:00:00 +0000</pubDate>
-      <guid>https://www.whatbunny.org/tags/mobile-app/</guid>
+      <guid>http://localhost:1313/tags/mobile-app/</guid>
       <description></description>
     </item>
     <item>
       <title>Performance</title>
-      <link>https://www.whatbunny.org/tags/performance/</link>
+      <link>http://localhost:1313/tags/performance/</link>
       <pubDate>Sat, 01 Jan 2011 00:00:00 +0000</pubDate>
-      <guid>https://www.whatbunny.org/tags/performance/</guid>
+      <guid>http://localhost:1313/tags/performance/</guid>
       <description></description>
     </item>
   </channel>
