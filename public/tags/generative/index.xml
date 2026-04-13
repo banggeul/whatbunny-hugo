@@ -2,45 +2,45 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Generative on Bang Geul Han Portfolio</title>
-    <link>http://localhost:1313/tags/generative/</link>
+    <link>https://www.whatbunny.org/tags/generative/</link>
     <description>Recent content in Generative on Bang Geul Han Portfolio</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 14 Dec 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/generative/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://www.whatbunny.org/tags/generative/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Alphabits</title>
-      <link>http://localhost:1313/projects/alphabits/</link>
+      <link>https://www.whatbunny.org/projects/alphabits/</link>
       <pubDate>Sun, 14 Dec 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/alphabits/</guid>
+      <guid>https://www.whatbunny.org/projects/alphabits/</guid>
       <description>&lt;p&gt;Generative realtime animation system that can fluidly generate Korean and English alphabets, transforming back and forth into each other.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Two Hearts</title>
-      <link>http://localhost:1313/projects/twohearts/</link>
+      <link>https://www.whatbunny.org/projects/twohearts/</link>
       <pubDate>Sun, 14 Dec 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/twohearts/</guid>
+      <guid>https://www.whatbunny.org/projects/twohearts/</guid>
       <description>&lt;div&#xA;          style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;&#xA;        &lt;iframe&#xA;          src=&#34;https://player.vimeo.com/video/1180832655?dnt=0&#34;&#xA;            style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allow=&#34;fullscreen&#34;&gt;&#xA;        &lt;/iframe&gt;&#xA;      &lt;/div&gt;&#xA;&#xA;&lt;p&gt;Two Hearts interlaces poems by Emily Dickinson with those of Kim Myung Soon—a tragic, pioneering figure in Korean literature whose longing and unwavering conviction in art resonate across time and space. The accompanying music by composer Yoon-Ji Lee similarly weaves together cultural hybrids and contradictions: a fretless guitar performs Gayageum Sanjo in the style of Sung Geum-yeon, while an accordion plays Women&amp;rsquo;s Life, the 1968 South Korean megahit sung by Lee Mi-ja about women’s suffering and perseverance.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Bamboo Forest</title>
-      <link>http://localhost:1313/projects/bambooforest/</link>
+      <link>https://www.whatbunny.org/projects/bambooforest/</link>
       <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/bambooforest/</guid>
+      <guid>https://www.whatbunny.org/projects/bambooforest/</guid>
       <description>&lt;p&gt;In Bamboo Forest, the letters comprising Henry J. Hyde’s remarks at the 1993 congressional debate, which unwittingly revealed the intersections of women’s reproductive rights with blatant class discrimination. These letters continually disassemble and reassemble to form a series of short texts featuring premodern superstitious beliefs and recipes for contraception and abortion, collected from historical and scholarly texts.&lt;/p&gt;&#xA;&lt;p&gt;The letters are constantly swept around the screen as if trapped in a windy forest that can’t help but echo and disclose these secrets, despite systemic and historical suppression of such knowledge.&lt;/p&gt;</description>
     </item>
     <item>
       <title>talk me tender</title>
-      <link>http://localhost:1313/projects/talkmetender/</link>
+      <link>https://www.whatbunny.org/projects/talkmetender/</link>
       <pubDate>Wed, 01 Jun 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/talkmetender/</guid>
+      <guid>https://www.whatbunny.org/projects/talkmetender/</guid>
       <description>&lt;p&gt;Developed in collaboration with London-based artist Minna Pöllänen. Trained on texts concerning themes of care and mortality by both feminist scholars and sources from popular culture, the chatbot provides a counterpoint to the exhibition’s probing of biopolitical frameworks, by looking at vulnerability and difference as sites of care and possibility rather than exploitation and subjugation.&lt;/p&gt;&#xA;&lt;p&gt;This work was made possible by Together Alone 2.0 commission by the Finnish Academic and Cultural Institute of UK/Ireland.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Through the Gaps Between my Teeth</title>
-      <link>http://localhost:1313/projects/throughthegaps/</link>
+      <link>https://www.whatbunny.org/projects/throughthegaps/</link>
       <pubDate>Wed, 01 Feb 2017 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/throughthegaps/</guid>
+      <guid>https://www.whatbunny.org/projects/throughthegaps/</guid>
       <description>&lt;p&gt;Through the Gaps Between My Teeth is a generative real-time animation in which alphabetical characters, swarming around the projected image, occasionally come together to form words and sentences, oscillating between the transcript of President Trump’s Access Hollywood tape and first-person accounts of sexual assault publicly posted on Twitter. The deliberate structural limitation of the custom software (the fact that every Twitter message has to be reconstructed using only the letters provided by DJT’s remarks) leaves imperfections in the text alluding to the structural limitations involved in speaking out about such subject matter.&lt;/p&gt;</description>
     </item>
   </channel>

@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Sculpture on Bang Geul Han Portfolio</title>
-    <link>http://localhost:1313/tags/sculpture/</link>
+    <link>https://www.whatbunny.org/tags/sculpture/</link>
     <description>Recent content in Sculpture on Bang Geul Han Portfolio</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 01 Jul 2022 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/sculpture/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://www.whatbunny.org/tags/sculpture/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Threshold</title>
-      <link>http://localhost:1313/projects/threshold/</link>
+      <link>https://www.whatbunny.org/projects/threshold/</link>
       <pubDate>Fri, 01 Jul 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/threshold/</guid>
+      <guid>https://www.whatbunny.org/projects/threshold/</guid>
       <description>&lt;p&gt;The sculpture references a traditional Korean Hanok, with its raised curving threshold that carries the symbolic meaning of delineating domestic and public spaces, as well as the male and female quarters within a house, and even life and death. The LED signage embedded in the threshold displays continuously scrolling text from a leaked US government spreadsheet from 2017- 2019 (source: American Bridge), with detailed notes of undocumented pregnant minors in their custody, including how far along they were in their pregnancy and whether they wanted an abortion. This was reportedly used to identify and discourage the minors from having an abortion.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Paradise</title>
-      <link>http://localhost:1313/projects/paradise/</link>
+      <link>https://www.whatbunny.org/projects/paradise/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/paradise/</guid>
+      <guid>https://www.whatbunny.org/projects/paradise/</guid>
       <description>&lt;p&gt;A gentle female voice emanates from a commercially available fake rock designed to conceal garden fixtures. Relying upon custom software and a micro-controller hidden inside the rock, the voice reads aloud the over twenty thousand names of US-based financial officers revealed in the Paradise Papers, one after the other, with the voice quietly chuckling and moaning in between the names.&lt;/p&gt;&#xA;&#xA;      &lt;div&#xA;          style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;&#xA;        &lt;iframe&#xA;          src=&#34;https://player.vimeo.com/video/558316342?dnt=0&#34;&#xA;            style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allow=&#34;fullscreen&#34;&gt;&#xA;        &lt;/iframe&gt;&#xA;      &lt;/div&gt;</description>
     </item>
   </channel>
